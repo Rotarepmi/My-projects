@@ -1,2 +1,2 @@
 "# My-projects" 
-<p>See more works on CodePen: <a href="https://codepen.io/Rotarepmi/"></a></p>
+<p>See more of my works on <a href="https://codepen.io/Rotarepmi/">CodePen</a></p>
