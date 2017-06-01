@@ -1,0 +1,25 @@
+body{
+  font-family: Arial;
+}
+
+table{
+  text-align: center;
+}
+
+table,tr,td,th{
+  border: 1px solid black;
+}
+
+table{
+  width: 100%;
+}
+
+span{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,162 @@
+html{
+	font-size: 62.5%;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #f7f7f7;
+}
+
+.main-app-container{
+	width: 90vw;
+	margin: auto;
+	padding: 10px;
+	font-size: 1.2rem;
+}
+
+h1{
+	font-weight: 400;
+	font-size: 1.8rem;
+}
+
+.eur-converter{
+	position: relative;
+	width: 100%;
+	background: #ffffff;
+	padding: 15px 15px 13px 15px;
+}
+
+.hat{
+	position: absolute;
+	background-image: url("img/hat.png");
+	background-size: 100%;
+	width: 55px;
+	height: 55px;
+	top: -30px;
+	right: -20px;
+	-webkit-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+
+.eur-converter label{
+	display: block;
+	font-size: 1rem;
+	color: #a19392;
+}
+
+.eur-converter input, 
+.eur-converter button{
+	width: 50%;
+	height: 35px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: solid 1px #adadad;
+	outline: none;
+	font-weight: 700;
+}
+
+.eur-converter input{
+	font-size: 2rem;
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
+	padding-left: 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button{ 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.eur-converter button{
+	font-size: 1.2rem;
+	color: #ffffff;
+	background: #59d999;
+	border-bottom-right-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+.eur-converter button:hover{
+	cursor: pointer;
+}
+
+.eur-converter button:active{
+	background: #27b777;
+}
+
+/** For desktop **/
+
+@media (min-width: 768px){
+	
+	html{
+		font-size: 75%;
+	}
+
+	.main-app-container{
+		width: 50vw;
+	}
+	
+	.hat{
+		width: 90px;
+		height: 90px;
+		top: -50px;
+		right: -40px;
+	}
+	
+	.eur-converter input, 
+	.eur-converter button{
+		height: 55px;
+	}
+	
+}
+
+@media (min-width: 1440px){
+	
+	html{
+		font-size: 100%;
+	}
+}
+
+/** tile styling **/
+
+.mockup{
+	width: 50%;
+	margin-top: 5px;
+}
+
+.mockup .amount{
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+.mockup p{
+	margin: 0;
+	margin-top: 2px;
+	color: #9c9c9c;
+}
+
+h2{
+	font-size: 1rem;
+	color: 656565;
+	font-weight: 400;
+}
+
+.mockup .amount p{
+	font-size: 2.2rem;
+	font-weight: 700;
+	margin: 0;
+	color: #000000;
+}

@@ -1,0 +1,19 @@
+div{
+  text-align: center;
+  font: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 40vh;
+  }
+  
+@keyframes blink {
+	50% {color: black; background-color: black;}
+    100% {color: white; background-color: white;}
+}
+
+.cursor{
+	width: 1px;
+	height: 25px;
+	color: white;
+	animation: blink 1s steps(1) infinite;
+}
